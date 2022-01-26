@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.form = this.fb.group(TestFormModel) as RxFormGroup;
+    this.form = this.fb.formGroup(TestFormModel) as RxFormGroup;
   }
 
 }
